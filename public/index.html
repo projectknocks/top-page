@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProjectKnocks Website</title>
+
+  <!-- update the version number as needed -->
+  <script src="/__/firebase/8.2.5/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script src="/__/firebase/8.2.5/firebase-storage.js"></script>
+  <script src="/__/firebase/8.2.5/firebase-firestore.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script src="/__/firebase/init.js"></script>
+  <!-- <script src="src/index.js"></script> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="src/style.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+  <div align="center" class="container justify-content-center"">
+    <!-- <a href= " game.html">ゲームページ</a> -->
+    <h1 class="display-3 fw-bold">Project Knocks's Website</h1>
+    <h2 class="display-5">What's Project Knocks?</h2>
+    <div>中高生と現役エンジニアのチームによる<br><b>立ちはだかる壁をたたき続けて新しい価値を作り出す</b>ためのプロジェクトです</div>
+    <h2 class="display-5">Members</h2>
+    <div class="col-6">
+      <table class="table table-hover table-sm text-light">
+        <thead>
+          <tr>
+            <th>icon</th>
+            <th>name</th>
+            <th>introduction</th>
+            <th>link</th>
+          </tr>
+        </thead>
+        <tbody id="members">
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script> -->
+
+  <script src="src/index.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+
+</body>
+
+</html>

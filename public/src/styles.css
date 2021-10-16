@@ -1,0 +1,25 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  background-color: rgb(41, 41, 41);
+  color: #ffffff;
+  text-shadow: 1px 2px 3px #808080; 
+}
+
+/* 
+#number {
+  border: 0;
+  padding: 10px;
+  font-size: 1.3em;
+  font-family: Arial, sans-serif;
+  color: #aaa;
+  border: solid 1px rgb(46, 40, 40);
+  margin: 0 0 20px;
+  width: 300px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+} */
